@@ -1,0 +1,17 @@
+[project]
+name = "multi-agent"
+version = "0.1.0"
+description = "Interactive multi-agent storytelling with LiveKit Agents"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "livekit-agents>=1.4.1",
+    "livekit-plugins-openai>=1.4.1",
+    "livekit-plugins-silero>=1.4.1",
+    "python-dotenv>=1.2.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.0",
+]
